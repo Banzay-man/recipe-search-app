@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: min(1200px, 100%);
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #777777;
+}
+
+.search-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 14px 16px;
+    border: 1px solid #2b5ea1;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-form button {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+/*მაუსის მიტანაზე იცვლება ბათონი*/
+.search-form button:hover {
+    background: #1b48c4;
+    transform: translateY(-1px);
+}
+
+.status {
+    min-height: 24px;
+    margin-bottom: 18px;
+    color: #444444;
+    font-weight: 600;
+}

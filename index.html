@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>რეცეპტების მაძიებელი</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>რეცეპტების მაძიებელი</h1>
+        <p>მოძებნე კერძი მაგალითად ქათმის ნაგეთსი, ხაჭაპური, ოსტრი და ა.შ.</p>
+    </header>
+
+    <form id="searchForm" class="search-form">
+        <input
+                type="text"
+                id="searchInput"
+                placeholder="ჩაწერე კერძის სახელი ინგლისურად..."
+                autocomplete="off"
+        />
+        <button type="submit" id="searchBtn">ძებნა</button>
+    </form>
+
+    <p id="status" class="status"></p>
+    <div id="results" class="results"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
